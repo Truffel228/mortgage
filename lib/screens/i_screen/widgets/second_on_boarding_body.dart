@@ -11,7 +11,7 @@ class SecondOnBoardingBody extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
         Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 12),
+          padding: const EdgeInsets.symmetric(horizontal: 28),
           child: Image.asset(
             'assets/stars.png',
             fit: BoxFit.fitWidth,

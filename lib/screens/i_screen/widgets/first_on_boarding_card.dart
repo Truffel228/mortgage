@@ -32,7 +32,7 @@ class FirstOnBoardingCard extends StatelessWidget {
               ),
               children: [
                 TextSpan(
-                  text: 'MortgagePro',
+                  text: 'MORTGAGE PRO ',
                   style: TextStyle(
                     fontWeight: FontWeight.w900,
                     color: Colors.green,

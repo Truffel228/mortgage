@@ -1,13 +1,10 @@
 import 'package:firebase_remote_config/firebase_remote_config.dart';
 import 'package:flats/app_router.dart';
-import 'package:flats/main.dart';
 import 'package:flats/screens/i_screen/widgets/on_boarding_screen.dart';
 import 'package:flats/screens/i_screen/widgets/privacy_policy_screen.dart';
 import 'package:flats/screens/settings/settings_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:go_router/go_router.dart';
-import 'package:in_app_review/in_app_review.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
