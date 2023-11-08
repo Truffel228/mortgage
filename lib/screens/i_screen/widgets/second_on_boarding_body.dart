@@ -14,6 +14,7 @@ class SecondOnBoardingBody extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 28),
           child: Image.asset(
             'assets/stars.png',
+            height: MediaQuery.of(context).size.height * 0.25,
             fit: BoxFit.fitWidth,
           ),
         ),

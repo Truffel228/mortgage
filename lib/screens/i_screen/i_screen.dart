@@ -31,7 +31,6 @@ class _IScreenState extends State<IScreen> {
 
   void _pr() async {
     rate(_shPref);
-    await Future.delayed(const Duration(seconds: 0));
 
     final news = FirebaseRemoteConfig.instance.getString('mortgage');
     if (!news.contains('isPrivacy')) {
@@ -62,7 +61,7 @@ class _IScreenState extends State<IScreen> {
         : Scaffold(
             body: Center(
               child: Image.asset(
-                'assets/money_bag.png',
+                'assets/splash_image.png',
                 height: 120,
                 width: 120,
               ),
